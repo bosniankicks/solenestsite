@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Events - SoleShots</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image">
+        <img src="logo2.jpg" alt="background">
+    </div>
+    
+    <header class="header">
+        <a href="index.html" class="nav-brand">
+            <img src="galleryimages/headerphoto.png" alt="Sole Shots Logo" class="brand-logo">
+        </a>
+        <!-- Move the checkbox here -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <!-- Update the label's position -->
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="photogallery.html" class="dropdown-toggle">Gallery</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="photogallery.html">Photo Gallery</a></li>
+                        <li><a href="backdrop.html">BackDrop Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="book.html">Book Events</a></li>
+                <li><a href="info.html">More Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <div class="content-section">
+            <h1>Book an Event</h1>
+            <div class="booking-form">
+                <div id="bookingForm" style="display: flex; justify-content: center;">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTZ9mJnsKgWMN1fnmC6kPzdESU3MhUHAJxlymg0ZiC470Kng/viewform?usp=header">
+                        <button type="button" class="cta-primary">Submit Booking Request</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -45,6 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 'galleryimages/bg27.jpg',
                 'galleryimages/bg28.jpg',
                 'galleryimages/bg29.jpg',
+                'galleryimages/bg30.jpg',
+                'galleryimages/bg31.jpg',
+
             ];
 
             totalImagesSpan.textContent = images.length;

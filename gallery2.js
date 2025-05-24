@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 'galleryimages/bg29.jpg',
                 'galleryimages/bg30.jpg',
                 'galleryimages/bg31.jpg',
+                'galleryimages/bg32.jpg',
+                'galleryimages/bg33.jpg',
+                'galleryimages/bg34.jpg',
+                'galleryimages/bg35.jpg',
 
             ];
 

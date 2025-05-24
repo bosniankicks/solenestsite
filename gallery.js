@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // For now, we'll use the exact same file array from your original code
             images = [
                 // new images first
-                "galleryimages/image93.jpeg",
                 "galleryimages/image94.jpeg",
                 "galleryimages/image95.jpeg",
                 "galleryimages/image96.jpeg",
